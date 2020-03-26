@@ -2,3 +2,5 @@ libsm6
 libxrender1
 libfontconfig1
 libice6
+tesseract-ocr
+libtesseract-dev
