@@ -4,3 +4,4 @@ libfontconfig1
 libice6
 tesseract-ocr
 libtesseract-dev
+tesseract-ocr-eng
