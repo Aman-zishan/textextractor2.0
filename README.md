@@ -61,7 +61,7 @@ This webApp extracts the text from an image :heart_eyes:
 6. **:dart: setup flask environment and run app**
     ```shell
     
-   $export FLASK_APP=wsgi.py
+   $export FLASK_APP=app.py
    $export FLASK_ENV=development
    $flask run
    ```
