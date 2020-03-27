@@ -72,7 +72,7 @@ This webApp extracts the text from an image :heart_eyes:
  </p>
    <p align="center">
  <img height="25%" width="25%" src="ss1.jpg" />
- <img height="50%" width="50%" src="ss3.jpg" />
+ <img height="30%" width="30%" src="ss3.jpg" />
  <img height="25%" width="25%" src="ss2.jpg" />
 
  </p>
