@@ -41,13 +41,6 @@ ol {
     list-style-type: none;
 }
 
-a,
-a:focus,
-a:hover {
-    text-decoration: none;
-    outline: 0;
-}
-
 img {
     overflow: hidden;
     border: 0;
@@ -1837,4 +1830,8 @@ textarea::placeholder {
 .fop-btm a {
     color: #ff7657;
     font-family: pb;
+}
+
+input[type='file'] {
+    color: white;
 }
