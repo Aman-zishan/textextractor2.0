@@ -28,7 +28,7 @@
     </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><b>Text</b>Extractor-2<b>.</b>0</a>
+            <a class="navbar-brand" href="{{ url_for('homepage') }}"><b>Text</b>Extractor-2<b>.</b>0</a>
             
         </div>
     </nav>
@@ -48,7 +48,7 @@ background: linear-gradient(90deg, rgba(255,85,0,1) 2%, rgba(237,109,20,1) 67%, 
                 </div>
                 <div class="col-lg-5">
                     <div class="banner-img">
-                        <img height="75%" width="75%" src="static/images/pencil.png" alt="banner-img" class="img-fluid">
+                        <img height="75%" width="75%" src="{{ url_for('static', filename='images/pencil.png') }}" alt="banner-img" class="img-fluid">
                     </div>
                 </div>
             </div>
