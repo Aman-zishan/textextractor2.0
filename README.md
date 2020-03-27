@@ -70,6 +70,11 @@ This webApp extracts the text from an image :heart_eyes:
  <img src="demo2.png" />
  <img src="demo3.png" />
  </p>
+   <p align="center">
+ <img src="ss1.jpg" />
+ <img src="ss2.jpg" />
+
+ </p>
 
 
 
