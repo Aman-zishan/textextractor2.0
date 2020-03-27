@@ -29,6 +29,17 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="{{ url_for('homepage') }}"><b>Text</b>Extractor-2<b>.</b>0</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse menu-main" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('about')}}">about</a>
+                    </li>
+                </ul>
+                </div>
+        
             
         </div>
     </nav>
@@ -49,6 +60,7 @@ background: linear-gradient(90deg, rgba(255,85,0,1) 2%, rgba(237,109,20,1) 67%, 
                 <div class="col-lg-5">
                     <div class="banner-img">
                         <img height="75%" width="75%" src="{{ url_for('static', filename='images/pencil.png') }}" alt="banner-img" class="img-fluid">
+                        
                     </div>
                 </div>
             </div>
