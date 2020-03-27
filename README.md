@@ -65,6 +65,11 @@ This webApp extracts the text from an image :heart_eyes:
    $export FLASK_ENV=development
    $flask run
    ```
+   <p align="center">
+ <img src="demo.png" />
+ <img src="demo2.png" />
+ <img src="demo3.png" />
+ </p>
 
 
 
