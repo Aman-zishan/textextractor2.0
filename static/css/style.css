@@ -1799,5 +1799,6 @@
     @keyframes mymove {
         50% {
             border-bottom-right-radius: 150px;
+            border-top-left-radius: 150px;
         }
     }
