@@ -46,16 +46,18 @@ This webApp extracts the text from an image :heart_eyes:
    $source venv/bin/activate
 
    ```
-5. **:hot_pepper: install flask**
+5. **:hot_pepper: install flask & other required dependencies**
     ```shell
     
     #windows
     
    $pip install flask
+   $pip install -r requirements.txt
    
    #linux/mac OS
    
    $pip3 install flask
+   pip3 install -r requirements.txt
 
    ```
 6. **:dart: setup flask environment and run app**
