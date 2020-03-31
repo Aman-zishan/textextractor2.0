@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="extracts text from an image" />
+    <meta name="description" content="textextracter" />
+    <title>textExtractor2.0</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slick.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon" />  
+
+
+</head>
+
+<body id="dark-mode">
+    <div class="preloader">
+        <div class="frame">
+            <div class="center">
+                <div class="dot-1"></div>
+                <div class="dot-2"></div>
+                <div class="dot-3"></div>
+            </div>
+        </div>
+    </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a style="text-decoration:none;" class="navbar-brand" href="{{ url_for('homepage') }}"><b>Text</b>Extractor-2<b>.</b>0</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse menu-main" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu-item">
+                    <li class="nav-item">
+                        <a style="text-decoration:none;" class="nav-link" href="{{url_for('homepage')}}">home</a>
+                    </li>
+                </ul>
+                </div>
+            
+        </div>
+    </nav>
+
+    <section id="banner">
+        <div class=".particles-js-canvas-el" id="particles-js"></div>
+
+        <div class="container zindex">
+            <div class="row">
+                <div class="col-lg-7 banner-txt">
+                    
+                   <h3 align="left">Demo</h3>
+                    <img style="border-color:white;border:3px solid white;" align="left" height="85%" width="85%" src="{{ url_for('static', filename='images/demo.png') }}" />
+                     
+                    
+                </div>
+                <div class="col-lg-5">
+                <img height="90%" width="115%" src="{{ url_for('static', filename='images/test.jpg') }}"/>
+                <h6 align="center" style="color:tomato;font-family: 'Poppins', sans-serif;padding-top:10px;">photograph of a book page</h6>
+
+                
+                </div>
+                               
+                
+            </div>
+
+        </div>
+
+    <!-- Optional JavaScript -->
+    <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/slick.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/particles.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.isotope.min.html') }}"></script>
+    <script src="{{ url_for('static', filename='js/circular.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+    
