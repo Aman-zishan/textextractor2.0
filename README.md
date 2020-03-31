@@ -72,13 +72,7 @@ This webApp extracts the text from an image :heart_eyes:
  <img src="demo3.png" />
  </p>
  
- # Demo(mobile view) :blush:
-   <p align="center">
- <img height="25%" width="25%" src="ss1.jpg" />
- <img height="30%" width="30%" src="ss3.jpg" />
- <img height="25%" width="25%" src="ss2.jpg" />
 
- </p>
 
 
 
