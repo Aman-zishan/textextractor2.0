@@ -36,7 +36,7 @@ Commit and push
     
     //It is used to push the file into the local repository.
 
-Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo) to **base branch**
+Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo) 
 
 Wait for your PR review and merge approval 
 
