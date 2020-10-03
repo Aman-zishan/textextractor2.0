@@ -74,9 +74,17 @@
    ```
 6. **:dart: setup flask environment and run app**
     ```shell
+
+    #windows
     
    $set FLASK_APP=app.py
    $set FLASK_ENV=development
+   $flask run
+
+   #linux/mac OS
+
+   $export FLASK_APP=app.py
+   $export FLASK_ENV=development
    $flask run
    ```
  # Demo :blush:
