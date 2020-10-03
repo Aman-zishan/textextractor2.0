@@ -4,7 +4,7 @@ Fork this repository (Click the Fork button on the top right of this page, click
 
 Clone your fork down to your local machine
 
-    git clone https://github.com/{your username}/DocScanner.git
+    git clone https://github.com/{your username}/textextractor2.0.git
 
 Create a branch
 
