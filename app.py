@@ -3,6 +3,8 @@ from flask import Flask, render_template, request, url_for, Response
 import pytesseract
 import cv2
 from PIL import Image
+import os
+
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' 
 
 app = Flask(__name__)
@@ -18,7 +20,8 @@ def about():
 @app.route('/upload/', methods=['GET', 'POST'])
 def upload():
     try:
-        imagefile = request.files.get('imagefile', '') 
+        imagefile = request.files.get('imagefile', '')
+        imagefile.save(os.path.join('./static/images/',imagefile.filename))
         img = Image.open(imagefile)
         img1 = img.convert('LA')
         text = pytesseract.image_to_string(img1)
@@ -27,8 +30,11 @@ def upload():
         f.truncate(0)
         f.write(text)
         f.close()
-        return render_template('result.html', var=text)
-    except:
+        print(img.filename)
+        filename=img.filename
+        return render_template('result.html', var=text,filename=imagefile.filename)
+    except Exception as e:
+            print(e) 
             return render_template('error.html')
     
 @app.route("/gettext")
