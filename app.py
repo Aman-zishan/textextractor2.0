@@ -3,16 +3,11 @@ from flask import Flask, render_template, request, url_for, Response
 import pytesseract
 import cv2
 from PIL import Image
-
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' 
 
 app = Flask(__name__)
 @app.route('/')
 def home():
-    return render_template('index.html')
-
-
-@app.route('/homepage/')
-def homepage():
     return render_template('index.html')
 
 
@@ -25,7 +20,9 @@ def upload():
     try:
         imagefile = request.files.get('imagefile', '') 
         img = Image.open(imagefile)
-        text = pytesseract.image_to_string(img)
+        img1 = img.convert('LA')
+        text = pytesseract.image_to_string(img1)
+        img1.save("images/image.png")
         f = open("sample.txt", "a")
         f.truncate(0)
         f.write(text)
@@ -44,7 +41,7 @@ def gettext():
             headers={"Content-disposition":
                      "attachment; filename=sample.txt"})
     
-  
+ 
         
 if __name__ == "__main__": 
         app.run()
