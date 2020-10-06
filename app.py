@@ -25,17 +25,15 @@ def upload():
         img = Image.open(imagefile)
         img1 = img.convert('LA')
         text = pytesseract.image_to_string(img1)
-        img1.save("images/image.png")
         f = open("sample.txt", "a")
         f.truncate(0)
         f.write(text)
         f.close()
-        print(img.filename)
         filename=img.filename
         return render_template('result.html', var=text,filename=imagefile.filename)
     except Exception as e:
-            print(e) 
-            return render_template('error.html')
+        print(e) 
+        return render_template('error.html')
     
 @app.route("/gettext")
 def gettext():
