@@ -4,8 +4,12 @@ import pytesseract
 import cv2
 from PIL import Image
 import os
+from math import floor
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' 
+#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' 
+
+REDUCTION_COEFF = 0.9
+QUALITY = 85
 
 app = Flask(__name__)
 @app.route('/')
@@ -24,6 +28,14 @@ def upload():
         imagefile.save(os.path.join('./static/images/',imagefile.filename))
         img = Image.open(imagefile)
         img1 = img.convert('LA')
+        print("Before reducing",img1.size)
+        imgsize=os.path.getsize(os.path.join('./static/images/',imagefile.filename))>>20
+        if imgsize>2:
+            x, y = img1.size
+            x *= REDUCTION_COEFF
+            y *= REDUCTION_COEFF
+            img1 = img1.resize((floor(x),floor(y)), Image.BICUBIC)
+            print("Img reduced",img1.size)
         text = pytesseract.image_to_string(img1)
         f = open("sample.txt", "a")
         f.truncate(0)
