@@ -83,7 +83,7 @@ class UploadAPI(Resource):
             os.remove(os.path.join("./static/images/",photo.filename))
             return {"message": text}, 200
         else:
-            return {'message':'Something went wrong'}, 404
+            return {'message':'Something went wrong'}, 500
 
 api.add_resource(UploadAPI, "/api/v1/")
 
