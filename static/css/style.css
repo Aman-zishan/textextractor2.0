@@ -1,10 +1,10 @@
-    /*
+/*
 * Template Name: Animado - Animation & Cartoon Studio Template
 * Author:  Giantco
 * Author URL: https://themeforest.net/user/giantco
 * Version: 1.0
 */
-    /* =============================================================================
+/* =============================================================================
 
 [Table of contents]
 
@@ -27,7 +27,7 @@
 /*===========================
 0.0 *** Common CSS START ***
 =============================*/
-    
+
 * {
     margin: 0;
     padding: 0;
@@ -197,7 +197,8 @@ p {
     border-radius: 50%;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+    -webkit-animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
+        alternate;
     animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
@@ -212,7 +213,8 @@ p {
     border-radius: 50%;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+    -webkit-animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
+        alternate;
     animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
@@ -227,7 +229,8 @@ p {
     border-radius: 50%;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+    -webkit-animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
+        alternate;
     animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
@@ -347,8 +350,8 @@ p {
     box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
     border-radius: 50%;
     background: #161616;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
 
 .backtotop:hover {
@@ -377,10 +380,10 @@ p {
     position: fixed;
     width: 100%;
     z-index: 9999;
-    -weebkit-transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -weebkit-transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
     padding-top: 30px;
     background: transparent !important;
 }
@@ -394,9 +397,9 @@ p {
     font-family: pr;
     font-size: 17px;
     font-weight: 500;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
     position: relative;
     margin-right: 18px;
 }
@@ -406,14 +409,14 @@ p {
     padding: 10px 25px !important;
     position: relative;
     border-radius: 3px;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .bor:after {
     position: absolute;
-    content: '';
+    content: "";
     width: 100%;
     height: 44px;
     top: 7px;
@@ -421,11 +424,11 @@ p {
     background: #212121;
     z-index: -1;
     border-radius: 3px;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, .67);
-    box-shadow: 0 0 40px rgba(0, 0, 0, .67);
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.67);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.67);
 }
 
 .bor:hover:after,
@@ -453,9 +456,9 @@ p {
     color: #fff;
     font-family: pb;
     font-size: 26px;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .navbar-light .navbar-brand b {
@@ -473,16 +476,16 @@ p {
 .nav-bg {
     background: #161616 !important;
     padding: 25px 0;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
 
 .nav-bg .navbar-brand {
     color: #fff;
     font-size: 26px;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .nav-bg .navbar-brand:hover {
@@ -509,14 +512,14 @@ p {
 =============================*/
 
 #banner {
-    padding: 260px 0 100px;
+    padding: 170px 0 100px;
     position: relative;
     width: 100%;
 }
 
 #banner::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 170px;
     right: 80%;
     overflow: hidden;
@@ -532,7 +535,7 @@ p {
 
 #banner::before {
     position: absolute;
-    content: '';
+    content: "";
     top: -349px;
     right: -300px;
     overflow: hidden;
@@ -584,14 +587,14 @@ p {
     width: 100%;
     height: 100%;
     position: absolute;
-    content: '';
+    content: "";
     top: 10px;
     left: 0;
     background: #db5536;
     z-index: -1;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .design-layer {
@@ -602,32 +605,68 @@ p {
 
 .design-layer::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 380px;
     right: 0;
     width: 170px;
     height: 140px;
     background: #ff7657;
     z-index: -1;
-    -webkit-clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
 
 .design-layer::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 430px;
     right: 0;
     width: 170px;
     height: 140px;
     background: #ff7657;
     z-index: -1;
-    -webkit-clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
 /*===========================
 3.0 *** FEATURE AREA START ***
@@ -643,8 +682,8 @@ p {
 
 .over-item {
     background: #161616;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
     padding: 35px 31px;
     margin-top: 30px;
 }
@@ -656,7 +695,7 @@ p {
 
 .unique-style::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 50%;
     right: -145px;
     height: 2px;
@@ -671,7 +710,7 @@ p {
 
 .unique-style::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 50%;
     right: -152px;
     height: 10px;
@@ -686,7 +725,7 @@ p {
 
 .unique-style2:after {
     position: absolute;
-    content: '';
+    content: "";
     top: 50%;
     left: -170px;
     height: 2px;
@@ -701,7 +740,7 @@ p {
 
 .unique-style2:before {
     position: absolute;
-    content: '';
+    content: "";
     top: 50%;
     left: -171px;
     height: 10px;
@@ -716,7 +755,7 @@ p {
 
 .unique-style3::after {
     position: absolute;
-    content: '';
+    content: "";
     top: -70px;
     left: 20px;
     height: 230px;
@@ -728,7 +767,7 @@ p {
 
 .unique-style3::before {
     position: absolute;
-    content: '';
+    content: "";
     top: -76px;
     left: 16px;
     height: 10px;
@@ -740,7 +779,7 @@ p {
 
 .unique-style4::after {
     position: absolute;
-    content: '';
+    content: "";
     bottom: -105px;
     right: 20px;
     height: 230px;
@@ -752,7 +791,7 @@ p {
 
 .unique-style4::before {
     position: absolute;
-    content: '';
+    content: "";
     bottom: -106px;
     right: 17px;
     height: 10px;
@@ -773,7 +812,7 @@ p {
 
 .header-text h3:after {
     position: absolute;
-    content: '';
+    content: "";
     bottom: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -852,8 +891,8 @@ over-btn a i {
 
 .about-img {
     background: #151515;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
@@ -871,7 +910,7 @@ over-btn a i {
 
 .ai-one::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 350px;
     left: -65px;
     width: 120px;
@@ -883,7 +922,7 @@ over-btn a i {
 
 .ai-two::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 344px;
     right: -55px;
     width: 120px;
@@ -897,7 +936,7 @@ over-btn a i {
 
 .ai-three::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 350px;
     left: -65px;
     width: 120px;
@@ -910,9 +949,9 @@ over-btn a i {
 .about-img img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .about-img:hover img {
@@ -966,14 +1005,14 @@ over-btn a i {
     width: 100%;
     height: 100%;
     position: absolute;
-    content: '';
+    content: "";
     top: 10px;
     left: 0;
     background: #db5536;
     z-index: -1;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .about-txt a:hover:after {
@@ -1059,8 +1098,8 @@ over-btn a i {
 
 .product-item {
     background: #151515;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 40px 30px;
     position: relative;
@@ -1106,8 +1145,8 @@ over-btn a i {
 
 .product-slider {
     background: #151515;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     padding: 30px 0 20px;
 }
@@ -1170,32 +1209,68 @@ over-btn a i {
 
 #team::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 380px;
     left: -25px;
     width: 170px;
     height: 140px;
     background: #ff7657;
     z-index: -1;
-    -webkit-clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
 
 #team::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 430px;
     left: -25px;
     width: 170px;
     height: 140px;
     background: #ff7657;
     z-index: -1;
-    -webkit-clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    clip-path: polygon(34% 32%, 64% 46%, 100% 31%, 100% 55%, 65% 70%, 33% 56%, 0 61%, 0 39%);
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    clip-path: polygon(
+        34% 32%,
+        64% 46%,
+        100% 31%,
+        100% 55%,
+        65% 70%,
+        33% 56%,
+        0 61%,
+        0 39%
+    );
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
 
 .team-pa {
@@ -1207,9 +1282,9 @@ over-btn a i {
     border: 6px solid #ff7657;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .team-item:hover img {
@@ -1259,8 +1334,8 @@ over-btn a i {
 
 .price-table {
     background: #151515;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
     padding: 30px 0 45px;
     border-radius: 4px;
 }
@@ -1316,9 +1391,9 @@ over-btn a i {
     background: white;
     text-align: center;
     border-radius: 50px;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .price-table a:hover {
@@ -1345,7 +1420,7 @@ over-btn a i {
 
 #review:after {
     position: absolute;
-    content: '';
+    content: "";
     top: -40px;
     right: -280px;
     width: 800px;
@@ -1353,8 +1428,9 @@ over-btn a i {
     border: 80px solid #161616;
     border-radius: 50%;
     z-index: -1;
-    -webkit-box-shadow: 0 25px 60px rgba(0, 0, 0, .67), inset 0 25px 60px rgba(0, 0, 0, .67);
-    box-shadow: 0 25px 60px rgba(0, 0, 0, .67), inset 0 25px 60px rgba(0, 0, 0, .67);
+    -webkit-box-shadow: 0 25px 60px rgba(0, 0, 0, 0.67),
+        inset 0 25px 60px rgba(0, 0, 0, 0.67);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.67), inset 0 25px 60px rgba(0, 0, 0, 0.67);
 }
 
 .review-pa {
@@ -1363,8 +1439,8 @@ over-btn a i {
 
 .review-item {
     background: #151515;
-    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
-    box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
     padding: 40px 0 30px;
     border-radius: 3px;
 }
@@ -1486,9 +1562,9 @@ textarea:-ms-input-placeholder {
     border-radius: 50px;
     font-size: 18px;
     border: none;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .con-btn:hover {
@@ -1667,9 +1743,9 @@ textarea::placeholder {
     background: white;
     font-size: 20px;
     margin-right: 13px;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .footer-social i:hover {
@@ -1692,9 +1768,9 @@ textarea::placeholder {
     text-transform: capitalize;
     line-height: 38px;
     font-size: 16px;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
     font-family: pr;
 }
 
@@ -1747,9 +1823,9 @@ textarea::placeholder {
 }
 
 .fg2 button i {
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .fg2 button {
@@ -1792,7 +1868,7 @@ textarea::placeholder {
     font-family: pb;
 }
 
-input[type='file'] {
+input[type="file"] {
     color: white;
 }
 
