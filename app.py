@@ -6,7 +6,7 @@ from PIL import Image
 import os
 from math import floor
 
-#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' 
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' 
 
 REDUCTION_COEFF = 0.9
 QUALITY = 85
@@ -15,6 +15,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return render_template('index.html')
+    
 
 
 @app.route('/about/')
@@ -41,8 +42,9 @@ def upload():
         f.truncate(0)
         f.write(text)
         f.close()
-        filename=img.filename
+        filename=img.filename    
         return render_template('result.html', var=text,filename=imagefile.filename)
+        
     except Exception as e:
         print(e) 
         return render_template('error.html')
