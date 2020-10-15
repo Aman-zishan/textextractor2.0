@@ -7,7 +7,7 @@
 
 [![Build Status](https://travis-ci.com/Aman-zishan/textextractor2.0.svg?branch=master)](https://travis-ci.com/Aman-zishan/textextractor2.0)
 [![GitHub issues](https://img.shields.io/github/issues/Aman-zishan/textextractor2.0.svg)](https://GitHub.com/Aman-zishan/textextractor2.0/issues/)
-[![Website cv.lbesson.qc.to](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg)](http://cv.lbesson.qc.to/)
+[![Website perso.crans.org](https://img.shields.io/website-up-down-green-red/http/perso.crans.org.svg)](http://perso.crans.org/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Aman-zishan/textextractor2.0/issues)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/Aman-zishan/textextractor2.0.svg)](https://github.com/Aman-zishan/textextractor2.0/blob/master/LICENSE)
