@@ -11,7 +11,6 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Aman-zishan/textextractor2.0/issues)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/Aman-zishan/textextractor2.0.svg)](https://github.com/Aman-zishan/textextractor2.0/blob/master/LICENSE)
-[![HitCount](http://hits.dwyl.com/Aman-zishan/textextractor2.0.svg?style=flat)](http://hits.dwyl.com/Aman-zishan/textextractor2.0)
 
 </div>
 
