@@ -74,6 +74,14 @@
    $pip3 install -r requirements.txt
 
    ```
+
+  **Tesseract installation**
+  ```
+  C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your path
+  ```
+  - If you get this error its probably because you dont have tesseract installed or not have set it to right path as per line 11 in `app.py`.
+  - The soln for this is to install tesseract to the specified path in the code from [here](https://github.com/UB-Mannheim/tesseract/wiki)
+
 6. **:dart: setup flask environment and run app**
     ```shell
 
