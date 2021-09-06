@@ -74,8 +74,8 @@
    $pip3 install -r requirements.txt
 
    ```
-
-  **Tesseract installation**
+  
+  **Tesseract installation - for Windows OS**
   ```
   C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your path
   ```
